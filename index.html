@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #f0f0f0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .site-title {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .site-slogan {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 300;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+        .section {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        .section-title {
+            font-size: 1.8rem;
+            color: #222;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        .section-desc {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.8;
+        }
+        @media (min-width: 768px) {
+            .content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部：头像+网站名称 -->
+        <div class="header">
+            <img src="1749879214d9e418d672165000e52a501762072180301.jpg" alt="网站头像" class="avatar">
+            <h1 class="site-title">你的网站名称</h1>
+            <p class="site-slogan">打造专属你的优质网络空间</p>
+        </div>
+
+        <!-- 内容区：网站介绍 -->
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">关于我们</h2>
+                <p class="section-desc">
+                    我们的网站致力于为用户提供[网站核心服务，如：优质的信息资源、便捷的工具应用、互动交流平台等]。自成立以来，始终坚持以用户需求为核心，不断优化产品体验，努力成为行业内具有影响力的平台。
+                </p>
+            </div>
+            <div class="section">
+                <h2 class="section-title">核心功能</h2>
+                <p class="section-desc">
+                    网站拥有[列举1-2个核心功能，如：智能搜索系统、个性化推荐服务、安全可靠的交互机制等]，满足不同用户的多样化需求。我们注重技术创新与用户体验的结合，持续迭代升级功能模块。
+                </p>
+            </div>
+            <div class="section">
+                <h2 class="section-title">我们的优势</h2>
+                <p class="section-desc">
+                    凭借[网站优势，如：专业的技术团队、丰富的行业经验、完善的服务体系等]，我们能够为用户提供稳定、高效、安全的服务。未来，我们将继续深耕领域，为用户创造更大价值。
+                </p>
+            </div>
+            <div class="section">
+                <h2 class="section-title">联系我们</h2>
+                <p class="section-desc">
+                    若有任何疑问或建议，欢迎通过[联系方式，如：邮箱、客服电话、留言板等]与我们沟通。我们将及时回复，不断改进服务质量。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
